@@ -1,8 +1,8 @@
-# Instrument Serif Custom
+# Inkstrument Xerif
 
 **Version 1.1.0**
 
-A custom cut of [Instrument Serif](https://github.com/Instrument/instrument-serif) by Rodrigo Fuenzalida, made for [albcantero.com](https://albcantero.com).
+A custom cut of [Instrument Serif](https://github.com/Instrument/instrument-serif) by Rodrigo Fuenzalida, made for [albcantero.com](https://albcantero.com). Until 1.0.0 it was called *Instrument Serif Custom*.
 
 ## What changed
 
@@ -29,8 +29,8 @@ They can be combined. On the web:
 
 | Family | Files | Notes |
 | --- | --- | --- |
-| **Instrument Serif Custom** | Regular, Italic | Hinted (ttfautohint). Meant for display sizes: the thinned hairlines get very fine in running text. |
-| **Instrument Serif Custom Exposure** | Regular, Italic | The same, with the curves softened like an overexposed phototype print: rounded corners and ink pooling in the joints, without adding weight. Unhinted; meant for display sizes. The ogonek and the cedilla (`ą ę ş`) break slightly. |
+| **Inkstrument Xerif** | Regular, Italic | Hinted (ttfautohint). Meant for display sizes: the thinned hairlines get very fine in running text. |
+| **Inkstrument Xerif Exposure** | Regular, Italic | The same, with the curves softened like an overexposed phototype print: rounded corners and ink pooling in the joints, without adding weight. Unhinted; meant for display sizes. The ogonek and the cedilla (`ą ę ş`) break slightly. |
 
 Each comes as TTF (`fonts/ttf`) for desktop apps and WOFF2 (`fonts/webfonts`) for the web.
 
@@ -38,23 +38,23 @@ Each comes as TTF (`fonts/ttf`) for desktop apps and WOFF2 (`fonts/webfonts`) fo
 
 ```css
 @font-face {
-  font-family: 'Instrument Serif Custom';
-  src: url('InstrumentSerifCustom-Regular.woff2') format('woff2');
+  font-family: 'Inkstrument Xerif';
+  src: url('InkstrumentXerif-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Instrument Serif Custom';
-  src: url('InstrumentSerifCustom-Italic.woff2') format('woff2');
+  font-family: 'Inkstrument Xerif';
+  src: url('InkstrumentXerif-Italic.woff2') format('woff2');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
 ```
 
-Use the Exposure files the same way under the family name `Instrument Serif Custom Exposure`.
+Use the Exposure files the same way under the family name `Inkstrument Xerif Exposure`.
 
 ## Changes
 
@@ -66,7 +66,8 @@ Use the Exposure files the same way under the family name `Instrument Serif Cust
 - The dot of `;` sits exactly over the head of the comma.
 - New straight comma below, turned comma above and caron of `ď ť ľ Ľ`.
 - New stylistic set `ss02`: round dots and marks.
-- Hinting redone with ttfautohint; the Exposure family is baked again from the new Custom.
+- Hinting redone with ttfautohint; the Exposure family is baked again from the new regular cut.
+- Renamed from Instrument Serif Custom to Inkstrument Xerif (family names and files).
 
 ### 1.0.0
 
